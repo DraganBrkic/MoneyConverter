@@ -1,0 +1,41 @@
+		body {
+			margin-top: 70px;
+			background-color: #333;
+			color: #fff;
+		}
+
+		.card {
+			background-color: #4f4f4f;
+		}
+
+		.container {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			flex-wrap: wrap;
+		}
+
+		#BamImg,
+		#EuroImg,
+		#PoundImg,
+		#JenImg {
+			cursor: pointer;
+		}
+
+		img {
+			height: 3rem;
+			margin-bottom: 1rem;
+		}
+
+		img:active {
+			border: 1px solid black;
+		}
+
+		.flagsOutput {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+		}
+
+
+
+		

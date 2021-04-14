@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+	<title>Money Convertor</title>
+</head>
+<body>
+<div class="container">
+	<div class="main-div">
+		<div class="main-div__flags-headers">
+			<h1>Money Converter</h1>
+			<div class="flags" id="Flags">
+				<h2>Choose a currency</h2>
+				<img id="BamImg" src="./resources/img/BosnianFlag.jpg">
+				<img id="EuroImg" src="./resources/img/EuroFlag.jpg">
+				<img id="PoundImg" src="./resources/img/BritainFlag.jpg">
+				<img id="JenImg" src="./resources/img/JapanFlag.jpg">
+				<div id="flagsOutput" class="flagsOutput">
+
+				</div>
+			</div>
+			<div id="wraper">
+				<form>
+					<div class="form-group">
+						<input  id="lbsInput" 
+							type="number" 
+						    class="form-control" 
+						    placeholder="Enter value...">
+
+					</div>
+				</form>
+
+				<div class="card-bam" id="SectionBAM">
+					<div class="card">
+						<h4>Bam:</h4>
+						<img src="./resources/img/BosnianFlag.jpg">
+						<div id="BamOutput">
+
+						</div>
+					</div>	
+				</div>
+			
+				<div class="card-euro" id="SectionEuro">
+					<div class="card">
+						<h4>Euro:</h4>
+						<img src="./resources/img/EuroFlag.jpg">
+						<div id="EuroOutput">
+
+						</div>
+					</div>	
+				</div>
+
+				<div class="card-pound" id="SectionGBP">
+					<div class="card">
+						<h4>Pound:</h4>
+						<img src="./resources/img/BritainFlag.jpg">
+						<div id="PoundOutput">
+
+						</div>
+					</div>	
+				</div>
+
+				<div class="card-jen" id="SectionJPY">
+					<div class="card">
+						<h4>Jen:</h4>
+						<img src="./resources/img/JapanFlag.jpg">
+						<div id="JenOutput">
+
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+				
+	</div>
+</div>	
+<script type="text/javascript" src="./resources/js/main.js"></script>
+</body>
+</html>
