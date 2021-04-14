@@ -3,4 +3,4 @@ this is my fictional project Money Converter:
 You can chek my project on link down below (click on image) :
 </br>
 </br>
-<a href="" target="_blank" > <img src="resources/img/converterImg.jpg" /> </a>
+<a href="" target="_blank" > <img src="resources/img/moneyConverterImg.jpg" /> </a>
